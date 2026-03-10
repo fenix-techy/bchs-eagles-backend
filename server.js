@@ -6,13 +6,13 @@ const MP="https://www.maxpreps.com/ca/bakersfield/bakersfield-christian-eagles";
 const URLS={
   football:MP+"/football/schedule/",
   basketball:MP+"/basketball/schedule/",
-  basketball_g:MP+"/girls-basketball/schedule/",
+  basketball_g:MP+"/basketball/girls/schedule/",
   baseball:MP+"/baseball/schedule/",
   softball:MP+"/softball/schedule/",
-  soccer:MP+"/boys-soccer/schedule/",
-  soccer_g:MP+"/girls-soccer/schedule/",
-  volleyball:MP+"/girls-volleyball/schedule/",
-  volleyball_boys:MP+"/boys-volleyball/schedule/",
+  soccer:MP+"/soccer/schedule/",
+  soccer_g:MP+"/soccer/girls/schedule/",
+  volleyball:MP+"/volleyball/girls/schedule/",
+  volleyball_boys:MP+"/volleyball/schedule/",
 };
 const CACHE={schedule:{data:null,ts:0},standings:{data:null,ts:0}};
 const TTL_S=5*60*1000,TTL_ST=15*60*1000;
